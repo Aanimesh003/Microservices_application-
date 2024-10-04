@@ -13,5 +13,5 @@ public interface HotelServices {
 
     @GetMapping("hotels/{hotelId}")
     Hotel gethotel(@PathVariable String hotelId);
-    //system.out.print
+
 }
